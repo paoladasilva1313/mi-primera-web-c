@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paola - Sitio Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navheader">
+            <div class="logo">
+                <a href="#inicio">YOSOYPAO</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="bienvenida">
+        <div class="hero-text">
+            <h1>Hola, soy Pao</h1>
+            <p>¡Bienvenidos a mi rincón digital!</p>
+            <a href="#contacto" class="contact-button">Contáctame</a>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Sobre Mí</h2>
+                <p>Soy Pao, y mi pasión es la magia de la transformación. Como analista de procesos y calidad, mi objetivo es convertir desafíos en oportunidades, y aquí es donde comparto mi viaje de innovación y creatividad.
+
+                    La vida como analista me ha llevado por un emocionante camino de mejora continua y excelencia operativa. Mi perspectiva es inusualmente alegre, porque veo en cada proceso una oportunidad de crecimiento, y en cada desafío, una puerta hacia la innovación.
+                    
+                    Creo firmemente que la calidad es la base de la excelencia. Mi enfoque se centra en identificar ineficiencias, resolver problemas y elevar estándares para lograr resultados excepcionales. La mejora de procesos es más que una profesión; es una pasión que me impulsa a buscar soluciones más inteligentes y efectivas día tras día.
+                    
+                    La creatividad es mi aliada constante. La vida no solo se trata de resolver problemas; sino de aborlos con enfoques frescos y originales. La innovación es nuestra brújula, y amo explorar nuevas ideas y tecnologías para alcanzar la perfección.
+                    
+                    En mi tiempo libre, me encanta tejer, pintar, mimar a mis plantas, disfrutar con mi afectos, ver pelis, o simplemente sentarme a disfrutar de hacer nada. Creo que la vida es un equilibrio entre trabajar y explorar, y la curiosidad es mi compañera constante.
+                    
+                    Este espacio es un reflejo de mi compromiso con la excelencia, la creatividad y la positividad. Aquí, compartiré algunos de mis trabajos, mis hobbis, tesoros que encuentre por ahi que me sirvan y puedan ayudar a otros, y muchos etc. Mi objetivo es inspirarte a abrazar los desafíos y a ver en ellos el camino hacia el éxito.
+                    
+                    Si tienes un problema que resolver, una idea que explorar o simplemente deseas conectarte, ¡no dudes en escribirme! ¡Juntos podemos transformar cualquier desafío en una oportunidad!
+                    
+                    Gracias por visitar y ser parte de mi viajes.
+                    
+                    ¡Sigamos juntos!</p>
+            </div>
+            <div class="about-image">
+                <img src="Imagenes/tu_foto.jpeg" alt="mifoto">
+            </div>
+        </div>
+    </section>
+
+    <section id="portafolio" class="portfolio">
+        <h2>Una parte de mia...</h2>
+        <div class="portfolio-items">
+            <!-- Aquí puedes listar tus proyectos con imágenes, descripciones y enlaces -->
+            <div class="portfolio-item">
+                <img src="Imagenes/mujerbr.jpg" alt="Proyecto 1">
+                <h3>Asesoramiento en Optimización de Procesos </h3>
+                <p>Como asesor de procesos, tengo el privilegio de colaborar con empresas de diversas industrias (financiera, salud, comunicacion, logistica). Mi objetivo principal es analizar, identificar áreas de mejora y brindar recomendaciones estratégicas para optimizar sus operaciones y aumentar su eficiencia.  Insentivar la generación de habitos ágiles para acelerar la entrega de proyectos, mejorar la colaboración interdepartamental y aumentar la adaptabilidad en un entorno empresarial competitivo.</p>
+                <a href="#">Ver más</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="Imagenes/rompecabeza.jpg" alt="Proyecto 2">
+                <h3>Capacitación en Metodologías Lean</h3>
+                <p>Como capacitador he colaborado con empresas comprometidas con la mejora continua y la eficiencia. Mi función ...diseñar y proporcionar capacitación especializada en metodologías Lean para equipos interno que enfren desafíos operativos que incluyen desperdicio en sus procesos, plazos de entrega prolongados y costos innecesariamente altos. Reconociendo la necesidad de cambios, buscaron adoptar los principios Lean para optimizar sus operaciones.</p>
+                <a href="#">Ver más</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="Imagenes/programadora.jpg" alt="Proyecto 2">
+                <h3>Descubriendo el maravilloso mundo de la programacion</h3>
+                <p>Estoy en pleno proceso de enamoramiento de la programación.  Como estudiante de programación web en EGG, emprendí un proyecto personal, mi propia web, para ir aplicando mis nuevos conocimientos en el desarrollo web. Esto me representó una oportunidad emocionante en el mundo fascinante mundo de la programación. Mi objetivo principal era crear un sitio web desde cero, pero obtuve mucho mas ..me he divertido, fui parte de una red, me sorprendi, me emocione, y aprendi una nueva manera de aprender.. "la cooperacion".</p>
+                <a href="#">Ver más</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <p>Si deseas ponerse en contacto conmigo, por favor utiliza el siguiente formulario o envía un correo electrónico a paoladasilva1313@gmail.com . ¡Estoy ansiosa por trabajar contigo!</p>
+        <form action="enviar.php" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>2023 Pao - Sitio Personal</p>
+        <div id="divcontacto">
+              <li class="licontacto"> <a class="2" href="https://wa.me/2615267116 ">WHATSAPP</a></li>
+              <li class="licontacto"> <a class="2" href="https://www.instagram.com/caminantealoap/">INSTAGRAM</a></li>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
